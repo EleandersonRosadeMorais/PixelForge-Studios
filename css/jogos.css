@@ -95,3 +95,71 @@
     color: #FFFFFF;
     transform: translateY(-2px);
 }
+
+@media screen and (max-width: 1023px) {
+    .pagina-jogos {
+        padding: 1.5rem;
+    }
+    
+    .container-jogos {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.2rem;
+        max-width: 900px;
+    }
+    
+    .jogo img {
+        height: 180px;
+    }
+    
+    .conteudo-jogo {
+        padding: 0.8rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    .pagina-jogos {
+        padding: 1rem;
+    }
+    
+    .container-jogos {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        max-width: 500px;
+    }
+    
+    .jogo {
+        border-width: 1px;
+    }
+    
+    .jogo:hover {
+        transform: none;
+        border-color: #3D348B;
+    }
+    
+    .jogo img {
+        height: 160px;
+    }
+    
+    .conteudo-jogo {
+        padding: 0.8rem;
+    }
+    
+    .info-jogo {
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+    
+    .plataformas {
+        justify-content: center;
+    }
+    
+    .botao-comprar:hover {
+        transform: none;
+        background: #00F5FF;
+        color: #0A0A0A;
+    }
+    
+    .botao-comprar:active {
+        background: #3D348B;
+        color: #FFFFFF;
+    }
+}

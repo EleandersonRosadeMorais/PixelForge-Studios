@@ -1,4 +1,4 @@
-/* ===== PÁGINA DO TRAILER ===== */
+
 .pagina-trailer {
     background: linear-gradient(135deg, #0A0A0A, #1a1a2e);
     padding: 2rem;
@@ -27,6 +27,8 @@
 
 .moldura-video iframe {
     display: block;
+    width: 100%;
+    height: 500px;
 }
 
 .info-trailer {
@@ -66,4 +68,78 @@
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (max-width: 1023px) {
+    .pagina-trailer {
+        padding: 1.5rem;
+    }
+    
+    .moldura-video iframe {
+        height: 400px;
+    }
+    
+    .info-trailer {
+        padding: 1.2rem;
+    }
+    
+    .info-trailer h3 {
+        font-size: 1.3rem;
+    }
+    
+    .tags-jogo {
+        gap: 0.8rem;
+    }
+    
+    .tags-jogo span {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .pagina-trailer {
+        padding: 1rem;
+    }
+    
+    .texto-introducao {
+        margin-bottom: 1.5rem;
+    }
+    
+    .moldura-video iframe {
+        height: 250px;
+    }
+    
+    .area-video {
+        margin-bottom: 1.5rem;
+    }
+    
+    .info-trailer {
+        padding: 1rem;
+        border-width: 1px;
+    }
+    
+    .info-trailer h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .tags-jogo {
+        gap: 0.5rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .tags-jogo span {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.8rem;
+        border-radius: 10px;
+    }
+    
+    .info-trailer p {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+        line-height: 1.4;
+    }
+}
+
 }

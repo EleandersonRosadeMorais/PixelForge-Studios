@@ -100,3 +100,94 @@ h2 {
     margin-bottom: 2rem;
     opacity: 0.8;
 }
+
+@media screen and (max-width: 1023px) {
+    .cabecalho {
+        padding: 0.8rem 1.5rem;
+    }
+    
+    .cabecalho h1 {
+        font-size: 1.4rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .cabecalho nav ul {
+        gap: 1rem;
+    }
+    
+    .cabecalho nav ul li a {
+        padding: 0.4rem 1.2rem;
+        font-size: 0.9rem;
+    }
+    
+    main {
+        padding: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    .rodape {
+        padding: 1.5rem;
+    }
+    
+    .rodape span {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cabecalho {
+        padding: 0.6rem 1rem;
+    }
+    
+    .cabecalho h1 {
+        font-size: 1rem;
+        margin-bottom: 0.6rem;
+    }
+    
+    .cabecalho nav ul {
+        gap: 0.5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cabecalho nav ul li a {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+        display: block;
+        width: 200px;
+        text-align: center;
+    }
+    
+    .cabecalho nav ul li a:hover {
+        transform: none;
+        background: #00F5FF;
+        color: #0A0A0A;
+    }
+    
+    main {
+        padding: 1rem;
+    }
+    
+    h2 {
+        font-size: 0.9rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .subtitulo {
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .rodape {
+        padding: 1rem;
+    }
+    
+    .rodape span {
+        font-size: 0.8rem;
+    }
+}
+
+}
