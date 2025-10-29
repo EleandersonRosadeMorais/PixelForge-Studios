@@ -1,0 +1,143 @@
+/* ===== PÁGINA DE CONTATO ===== */
+.pagina-contato {
+    background: linear-gradient(135deg, #0A0A0A, #1a1a2e);
+    padding: 2rem;
+}
+
+.conteudo-pagina {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.texto-explicacao {
+    text-align: center;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+}
+
+.area-duas-colunas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.caixa-info, .caixa-formulario {
+    background: rgba(10, 10, 10, 0.8);
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid #3D348B;
+}
+
+.caixa-info h3, .caixa-formulario h3 {
+    color: #00F5FF;
+    margin-bottom: 1rem;
+}
+
+.item-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    background: rgba(61, 52, 139, 0.2);
+    border-radius: 8px;
+}
+
+.emoji {
+    font-size: 1.2rem;
+}
+
+.dados-contato strong {
+    color: #00F5FF;
+    font-size: 0.9rem;
+}
+
+.dados-contato span {
+    color: #FFFFFF;
+}
+
+.area-redes {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #3D348B;
+}
+
+.area-redes h4 {
+    color: #00F5FF;
+    margin-bottom: 0.8rem;
+}
+
+.lista-icones {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.icone-rede {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: rgba(61, 52, 139, 0.3);
+    border-radius: 50%;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.icone-rede:hover {
+    background: #00F5FF;
+    transform: translateY(-2px);
+}
+
+.grupo-campo {
+    margin-bottom: 1rem;
+}
+
+.grupo-campo label {
+    display: block;
+    color: #00F5FF;
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+}
+
+.grupo-campo input,
+.grupo-campo select,
+.grupo-campo textarea {
+    width: 100%;
+    padding: 0.7rem;
+    background: rgba(61, 52, 139, 0.2);
+    border: 2px solid #3D348B;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.grupo-campo input:focus,
+.grupo-campo select:focus,
+.grupo-campo textarea:focus {
+    outline: none;
+    border-color: #00F5FF;
+}
+
+.grupo-campo textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.botao-enviar {
+    width: 100%;
+    padding: 0.8rem;
+    background: #00F5FF;
+    color: #0A0A0A;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.botao-enviar:hover {
+    background: #3D348B;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+}

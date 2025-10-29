@@ -1,0 +1,97 @@
+.pagina-jogos {
+    padding: 2rem;
+    background: linear-gradient(135deg, #0A0A0A, #1a1a2e);
+}
+
+.texto-descricao {
+    text-align: center;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+}
+
+.container-jogos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.jogo {
+    background: rgba(10, 10, 10, 0.8);
+    border-radius: 10px;
+    border: 2px solid #3D348B;
+    transition: all 0.3s ease;
+}
+
+.jogo:hover {
+    transform: translateY(-5px);
+    border-color: #00F5FF;
+}
+
+.jogo img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.conteudo-jogo {
+    padding: 1rem;
+}
+
+.conteudo-jogo h3 {
+    color: #00F5FF;
+    margin-bottom: 0.5rem;
+}
+
+.info-jogo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.conteudo-jogo p {
+    color: #FFFFFF;
+    line-height: 1.5;
+    margin-bottom: 0.8rem;
+}
+
+.plataformas {
+    display: flex;
+    gap: 0.3rem;
+    margin-bottom: 0.8rem;
+    flex-wrap: wrap;
+}
+
+.plataformas span {
+    background: rgba(61, 52, 139, 0.3);
+    color: #00F5FF;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+}
+
+.nota {
+    color: #FFD700;
+    margin-bottom: 1rem;
+}
+
+.botao-comprar {
+    display: block;
+    padding: 0.8rem;
+    background: #00F5FF;
+    color: #0A0A0A;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.botao-comprar:hover {
+    background: #3D348B;
+    color: #FFFFFF;
+    transform: translateY(-2px);
+}
